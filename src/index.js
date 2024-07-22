@@ -1,6 +1,6 @@
 const { Client, IntentsBitField, ActivityType, SlashCommandBuilder } = require('discord.js'); // Import the discord.js library
 const prefix = 'TA'; // Set the prefix
-const config = require('./config.json');
+const config = require('/Users/alvisgordon/Documents/bot test 1/.gitignore/config.json');
 const Ping = require('ping.js');   // Import the ping.js library
 const axios = require('axios');
 const ytdl = require('ytdl-core'); // Import the ytdl-core library for handling YouTube audio streams
