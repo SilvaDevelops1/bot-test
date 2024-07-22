@@ -42,7 +42,7 @@ myClient.on('messageCreate', message => {
 // Define a slash command
 
 
-client.login(config.token); // Token 
+myClient.login(config.token); // Token 
  
 //myClient.on('messageCreate', message => { // When a message is created
     //if (message.content === '!ping') {  // Check if the message is !ping
