@@ -1,5 +1,6 @@
 const { Client, IntentsBitField, ActivityType, SlashCommandBuilder } = require('discord.js'); // Import the discord.js library
 const prefix = 'TA'; // Set the prefix
+const config = require('./config.json');
 const Ping = require('ping.js');   // Import the ping.js library
 const axios = require('axios');
 const ytdl = require('ytdl-core'); // Import the ytdl-core library for handling YouTube audio streams
@@ -41,7 +42,7 @@ myClient.on('messageCreate', message => {
 // Define a slash command
 
 
-myClient.login('MTIyMTc1Mzc1OTE4OTgyNzY0NQ.GWakOd.zay2bUAEvONyTXTvqCCNv_b6INRYawTUaPnWb0'); // Token 
+client.login(config.token); // Token 
  
 //myClient.on('messageCreate', message => { // When a message is created
     //if (message.content === '!ping') {  // Check if the message is !ping
